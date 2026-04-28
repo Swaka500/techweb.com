@@ -2,16 +2,16 @@ import { useEffect, useState } from "react"
 import { TypeAnimation } from "react-type-animation"
 
 import hero1 from "../assets/hero1.jpg"
+import hero2 from "../assets/hero2.jpg"
 import hero3 from "../assets/hero3.jpg"
 import hero4 from "../assets/hero4.jpg"
 import hero5 from "../assets/hero5.jpg"
 import hero6 from "../assets/hero6.jpg"
 import hero7 from "../assets/hero7.jpg"
-import hero9 from "../assets/hero9.jpg"
 import hero10 from "../assets/hero10.jpg"
 
 const Hero = () => {
-  const images = [hero1, hero3, hero4, hero5, hero6, hero7, hero9, hero10]
+  const images = [hero1, hero2, hero3, hero4, hero5, hero6, hero7, hero10]
   const [current, setCurrent] = useState(0)
 
   useEffect(() => {
