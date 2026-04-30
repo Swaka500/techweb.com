@@ -23,11 +23,11 @@ const services = [
 
 const Services = () => {
   return (
-    <section className="py-20 bg-[#0b0f19] text-white">
+    <section id="services"  className="py-20 bg-[#0b0f19] text-white">
       <div className="max-w-7xl mx-auto px-6">
 
         <h2 className="text-3xl md:text-5xl font-bold text-center mb-14">
-          My Services
+        Services
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
